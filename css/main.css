@@ -29,6 +29,7 @@ body{
 ul{
     padding-left: 0;
     list-style: none;
+    display: flex;
 }
 
 a{
@@ -199,5 +200,63 @@ a{
 
 
 /***************** Main Styles end **********************/
-/***************** Header styles end **********************/
-/***************** Header styles end **********************/
+/***************** Footer styles start **********************/
+.site-footer-top{
+    background: var(--footer-bg-color);
+
+}
+
+.footer-top{
+        padding: 102px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-footer__link{
+    width: 415px;
+    height: 96px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #FFFFFF;
+}
+
+.site-download{
+    gap: 18px;
+}
+
+.site-footer-bottom{
+    background: #333A44;
+}
+
+.footer-bottom{
+    padding: 35px 0 33px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom-left{
+    display: flex;
+    align-items: center;
+    gap: 59px;
+}
+.footer-bottom__list{
+    gap: 32px;
+}
+.footer-bottom__link{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+}
+.network-list{
+    gap: 24px;
+}
+/***************** Footer styles end **********************/
