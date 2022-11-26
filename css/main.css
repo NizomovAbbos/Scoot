@@ -1,0 +1,63 @@
+:root{
+    --main-bg-color: #fff;
+    --main-text-color: #939CAA;
+    --main-title-color: #495567;
+    --footer-bg-color: #495567;
+    --mask-bg-color:#E5ECF4;
+}
+.container{
+    width: 1146px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+.btn{ 
+    width: 180px;
+    height: 53px;   
+    background: #FCB72B;
+    border: none;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/***************** Header Styles start **********************/
+.site-header__wrapper{
+    padding: 22px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header__left{
+    display: flex;
+    align-items: center;
+    gap: 58px;
+}
+
+.site-header-nav__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.site-header-nav__item{
+    list-style: none;
+}
+
+.site-header-nav__link{
+    text-decoration: none;
+}
+/***************** Header Styles end **********************/
+
+/***************** Main Styles start **********************/
+.section{
+    background-image: url(../images/png/motorcycle.jpg);
+}
+/***************** Main Styles end **********************/
+/***************** Header styles end **********************/
+/***************** Header styles end **********************/
