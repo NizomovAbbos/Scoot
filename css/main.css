@@ -76,6 +76,7 @@ a{
 }
 /***************** Header Styles start **********************/
 .site-header__wrapper{
+    width: 100%;
     padding: 22px 0;
     display: flex;
     justify-content: space-between;
@@ -117,6 +118,7 @@ a{
 /***************** Main Styles start **********************/
 /* Scoot styles start */
 .site-main-scoot{
+    /* margin: 0; */
     padding-top: 153px;
     width: 100%;
     background-image: url(../images/png/motorcycle.jpg);
@@ -296,7 +298,11 @@ a{
 
 /***************** Footer styles start **********************/
 /* Footer top styles start */
+.site-footer{
+    width: 100%;
+}
 .site-footer-top{
+    width: 100%;
     margin-top: 307px;
     background: var(--footer-bg-color);
     background-image: url(../images/png/footer.bg.img.png);
@@ -379,3 +385,43 @@ a{
 }
 /* Footer bottom styles end */
 /***************** Footer styles end **********************/
+@media only screen and (max-width: 500px) {
+    .site-header__wrapper{
+        text-align: center;
+    }
+    .btn{
+        display: none;
+    }
+    .site-header__nav{
+        display: none;
+    }
+
+    .section-list {
+        display: flow-root;
+    }
+
+    .section-item{
+        text-align: center;
+    }
+    .section-inside{
+        display: flow-root;
+        text-align: center;
+    }
+    .footer-top{
+        display: flow-root;
+        text-align: center;
+    }
+    .footer-bottom{
+        display: flow-root;
+
+    }
+    .footer-bottom-left{
+        display: flow-root;
+    }
+    .footer-bottom_list{
+        display: flow-root;
+    }
+    .network-list{
+        justify-content: none;
+    }
+  }
