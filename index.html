@@ -6,10 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imtihon 2-oy.</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Header start -->
     <header class="site-header">
+        <h1 class="visually-hidden">Scoot</h1>
         <div class="container">
             <div class="site-header__wrapper">
                 <div class="site-header__left">
@@ -46,9 +52,10 @@
 
     <!-- Main start -->
     <main class="site-main">
-        <div class="site-main-scoot">
+        <!-- Scoot start -->
+        <section class="site-main-scoot">
             <div class="container">
-                <section class="scoot-section">
+                <div class="scoot-section">
                     <h2 class="scoot-title">
                         Scooter sharing made simple
                     </h2>
@@ -61,12 +68,30 @@
                     <button class="scoot-btn" type="button">
                         Get Scootin
                     </button>
-                </section>
+                </div>
             </div>
-        </div> 
+            <svg class="scoot__strelka-left" width="741" height="151" viewBox="0 0 741 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="Group 32">
+                <path id="Path 4 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M190.355 15.5H740.969V0.5H182.855L175.355 8V99.8688H6.59137V114.869H182.855L190.355 107.369V15.5Z" fill="#FCB72B"/>
+                <g id="Group 13">
+                <path id="Path 3 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M0.909874 112.516L39.3361 150.943L49.9427 140.336L16.8198 107.213L49.9427 74.0901L39.3361 63.4835L0.909874 101.91V112.516Z" fill="#FCB72B"/>
+                </g>
+                </g>
+            </svg> 
+            <svg class="scoot__strelka-right" width="452" height="151" viewBox="0 0 452 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="Group 8 Copy">
+                <path id="Path 3" d="M407.952 145.444L446.378 107.018L407.952 68.5916" stroke="#FCB72B" stroke-width="15" stroke-linejoin="bevel"/>
+                <path id="Path 4" d="M0 8H270.115V107.369H446.378" stroke="#FCB72B" stroke-width="15" stroke-linejoin="bevel"/>
+                </g>
+            </svg>
 
-        <div class="container">
-            <section class="section">
+        </section>
+        <!-- Scoot end -->
+        
+        <!-- Section one start -->
+        <section class="section">
+            <h2 class="visually-hidden">Scoot</h2>
+            <div class="container">
                 <ul class="section-list">
                     <li class="section-item">
                         <svg class="svg" width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -116,82 +141,122 @@
                         </p>
                     </li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
+        <!-- Section one end -->
 
-        <div class="container">
-            <section class="section">
-                <div class="section-left">
-                    <h2 class="section-title">Easy to useriding telemetry</h2> 
-                    <p class="section-text">
-                        The Scoot app is available with riding telemetry.
-                        This means it can show you your average speed,
-                        how long you've been using the scooter, your traveling distance,
-                        and many more things all in an easy to use app.
-                    </p>
-                    <button class="btn">
-                        Learn More
-                    </button>
+        <!-- Section two start-->
+        <section class="section">
+            <div class="container">
+                <div class="section-inside">
+                    <div class="section-left">
+                        <h2 class="section-title">Easy to user riding telemetry</h2> 
+                        <p class="section-text">
+                            The Scoot app is available with riding telemetry.
+                            This means it can show you your average speed,
+                            how long you've been using the scooter, your traveling distance,
+                            and many more things all in an easy to use app.
+                        </p>
+                        <button class="btn">
+                            Learn More
+                        </button>
+                    </div>
+                    <img class="section-img" src="./images/png/img1.png"
+                        alt="rasm"
+                        width="445"
+                        height="445"
+                        >
+                </div>  
+            </div>
+            <svg class="strelka-two" width="741" height="151"
+                 viewBox="0 0 741 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <g id="Group 32">
+                 <path id="Path 4 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M190.355 15.5H740.969V0.5H182.855L175.355 8V99.8688H6.59137V114.869H182.855L190.355 107.369V15.5Z" fill="#FCB72B"/>
+                 <g id="Group 13">
+                 <path id="Path 3 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M0.909874 112.516L39.3361 150.943L49.9427 140.336L16.8198 107.213L49.9427 74.0901L39.3361 63.4835L0.909874 101.91V112.516Z" fill="#FCB72B"/>
+                 </g>
+                 </g>
+            </svg>
+        </section>
+        <!-- Section two end -->
+
+        <!-- Section three start -->
+        <section class="section">
+            <div class="container">
+                <div class="section-inside">
+                    <img class="section-img"src="./images/png/img2.png"
+                         alt="Img"
+                         width="445"
+                         height="445">
+                    <div class="section-right">
+                        <h2 class="section-title">Coming to a city near you</h2> 
+                        <p class="section-text">
+                            Scoot is available in 4 major cities so far. We're expanding rapidly,
+                            so be sure to let us know if you want to see us in your hometown.
+                            We're aiming to let our scooters loose on 23 cities over
+                            the coming year.
+                        </p>
+                        <button class="btn">
+                            Learn More
+                        </button>
+                    </div>
                 </div>
-                <img class="section-img" src="./images/png/img1.png"
-                     alt="rasm"
-                     width="445"
-                     height="445"
-                     >  
-            </section>
-
-            <section class="section">
-                <img class="section-img" src="./images/png/img2.png"
-                     alt=""
-                     width="445"
-                     height="445"
-                     >
-                <div class="section-right">
-                    <h2 class="section-title">Coming to a city near you</h2> 
-                    <p class="section-text">
-                        Scoot is available in 4 major cities so far. We're expanding rapidly,
-                        so be sure to let us know if you want to see us in your hometown.
-                        We're aiming to let our scooters loose on 23 cities over
-                        the coming year.
-                    </p>
-                    <button class="btn">
-                        Learn More
-                    </button>
+            </div>
+            <svg class="strelka-three" width="452" height="151" viewBox="0 0 452 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="Group 8 Copy">
+                <path id="Path 3" d="M407.952 145.444L446.378 107.018L407.952 68.5916" stroke="#FCB72B" stroke-width="15" stroke-linejoin="bevel"/>
+                <path id="Path 4" d="M0 8H270.115V107.369H446.378" stroke="#FCB72B" stroke-width="15" stroke-linejoin="bevel"/>
+                </g>
+                </svg>
+        </section>
+        <!-- Section three end -->
+        
+        <!-- Section four start -->
+        <section class="section">
+            <div class="container">
+                <div class="section-inside">
+                    <div class="section-left">
+                        <h2 class="section-title">Zero hassle payments</h2> 
+                        <p class="section-text">
+                            Our payment is as easy as one two three. We accept most credit
+                            cards and debit cards. You can also link your PayPal account
+                            inside the app. Need to pay later? No worries! You can defer
+                            payment for up to a month.
+                        </p>
+                        <button class="btn">
+                            Learn More
+                        </button>
+                        </div>
+                        <img class="section-img" src="./images/png/img3.png"
+                            alt="rasm"
+                            width="445"
+                            height="445"
+                            > 
+                    </div>
                 </div>
-            </section>
-
-            <section class="section">
-                <div class="section-left">
-                    <h2 class="section-title">Zero hassle payments</h2> 
-                    <p class="section-text">
-                        Our payment is as easy as one two three. We accept most credit
-                        cards and debit cards. You can also link your PayPal account
-                        inside the app. Need to pay later? No worries! You can defer
-                        payment for up to a month.
-                    </p>
-                    <button class="btn">
-                        Learn More
-                    </button>
-                </div>
-                <img class="section-img" src="./images/png/img3.png"
-                     alt="rasm"
-                     width="445"
-                     height="445"
-                     >  
-            </section>
-        </div>
-
-
+            
+                <svg class="strelka-four" width="741" height="151" viewBox="0 0 741 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Group 32">
+                    <path id="Path 4 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M190.355 15.5H740.969V0.5H182.855L175.355 8V99.8688H6.59137V114.869H182.855L190.355 107.369V15.5Z" fill="#FCB72B"/>
+                    <g id="Group 13">
+                    <path id="Path 3 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M0.909874 112.516L39.3361 150.943L49.9427 140.336L16.8198 107.213L49.9427 74.0901L39.3361 63.4835L0.909874 101.91V112.516Z" fill="#FCB72B"/>
+                    </g>
+                    </g>
+                </svg>
+            </div>   
+        </section>
+        <!-- Section four end -->
     </main>
     <!-- Main end -->
 
     <!-- Footer start  -->
     <footer class="site-footer">
+        <!-- Footer top start -->
         <div class="site-footer-top">
             <div class="container">
                 <div class="footer-top">
                     <a class="site-footer__link" href="./index.html">Sign up and <br> Scoot off today</a>
-                    <div class="site-download">
+                    <div class="site-download"> 
                         <a class="appstore-link" href="#">
                             <img class="site-download__img"
                             src="./images/png/appstore.png"
@@ -210,6 +275,9 @@
                 </div>
             </div>
          </div>   
+        <!-- Footer top end -->
+
+        <!-- Footer bottom start -->
         <div class="site-footer-bottom">
             <div class="container">
                 <div class="footer-bottom">
@@ -261,9 +329,8 @@
                     </ul>
                 </div>
             </div>
-
         </div>
-        </div>
+        <!-- Footer bottom end -->
     </footer>
     <!-- Footer end -->
 </body>
